@@ -80,9 +80,10 @@ typedef struct
 stOledDeviceParamTdf;
 
 void vOledWriteOneCharToBuffer(uint32_t x, uint32_t y, uint8_t ucChar, emOledFontSizeTdf emFontSize, emOledPixelShowModeTdf emMode, emOledDevNumTdf emDevNum);
-void vUiWriteStringToBuffer(uint16_t x, uint16_t y, const uint8_t *c_pucChar, emOledFontSizeTdf emFontSize, emOledPixelShowModeTdf emMode, emOledDevNumTdf emDevNum);
+void vOledWriteStringToBuffer(uint16_t x, uint16_t y, const uint8_t *c_pucChar, emOledFontSizeTdf emFontSize, emOledPixelShowModeTdf emMode, emOledDevNumTdf emDevNum);
 void vOledDrawOnePointToBuffer(uint32_t x, uint32_t y, emOledDevNumTdf emDevNum);
 void vOledClearOnePointToBuffer(uint32_t x, uint32_t y, emOledDevNumTdf emDevNum);
+void vOledDrawDotLine(uint32_t x, uint32_t y, uint32_t ulLength, emOledDevNumTdf emDevNum);
 void vOledRefreshFromBuffer(emOledDevNumTdf emDevNum);
 void vOledDeviceInit(stOledStaticParamTdf *pstInit, emOledDevNumTdf emDevNum);
 

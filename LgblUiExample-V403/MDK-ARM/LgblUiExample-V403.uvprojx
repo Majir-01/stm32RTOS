@@ -400,6 +400,16 @@
               <FileType>1</FileType>
               <FilePath>..\User\Device\oled_font.c</FilePath>
             </File>
+            <File>
+              <FileName>led_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Device\led_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>button_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Device\button_device.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
